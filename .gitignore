@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local application state
+.DS_Store
+.ultralytics_config/
+.matplotlib/
+.idea/
+.vscode/
+
+# Datasets, experiments and weights
+datasets/
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Third-party papers are indexed in papers/README.md
+papers/*.pdf
+papers/*.zip
